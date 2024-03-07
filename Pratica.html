@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carros de Luxo</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Adicionando Font Awesome -->
+  <style>
+    /* Estilos adicionais podem ser adicionados aqui */
+    body {
+      background-color: #f8f9fa;
+    }
+    footer {
+      background-color: #343a40;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <header class="bg-dark text-light p-4">
+    <div class="container">
+      <h1>Carros de Luxo</h1>
+      <nav>
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-car"></i> Mercedes-Benz</a> <!-- Exemplo de ícone com a marca Mercedes-Benz -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-car"></i> BMW</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-car"></i> Audi</a>
+          </li>
+          <!-- Adicione outras marcas de carros de luxo aqui -->
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <div class="container mt-4">
+    <section>
+      <h2>Tecnologia de carros luxuosos</h2>
+      <p>A tecnologia desempenha um papel fundamental no desenvolvimento dos carros de luxo modernos. Desde sistemas avançados de segurança e assistência ao motorista até recursos de entretenimento e conforto, a tecnologia está transformando a experiência de dirigir e viajar de forma significativa.</p>
+    </section>
+    <section>
+      <h2>A alta demanda de vendas no Brasil</h2>
+      <p>No Brasil, a demanda por carros de luxo tem crescido nos últimos anos devido ao aumento do poder aquisitivo da população e à disponibilidade de financiamento. Os consumidores brasileiros estão cada vez mais interessados em adquirir veículos que oferecem conforto, tecnologia e status social.</p>
+    </section>
+    <section>
+      <h2>A experiência de dirigir um Carro de luxo</h2>
+      <p>Dirigir um carro de luxo proporciona uma experiência única e emocionante. A sensação de poder e conforto, combinada com a tecnologia avançada e o design elegante, torna cada viagem uma jornada inesquecível. Para desfrutar ao máximo dessa experiência, é importante relaxar, aproveitar o momento e explorar as capacidades do veículo.</p>
+    </section>
+  </div>
+
+  <footer>
+    <div class="container">
+      &copy; <span id="year"></span> Carros de Luxo
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+</body>
+</html>
